@@ -6,13 +6,13 @@ import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 
-import kotlinx.android.synthetic.main.activity_search_restaurant.*
+import kotlinx.android.synthetic.main.activity_search_venue.*
 
-class SearchRestaurant : AppCompatActivity() {
+class SearchVenue : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_search_restaurant)
+        setContentView(R.layout.activity_search_venue)
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
@@ -23,7 +23,7 @@ class SearchRestaurant : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.menu_search_restaurant, menu)
+        menuInflater.inflate(R.menu.menu_search_venue, menu)
         return true
     }
 
